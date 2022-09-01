@@ -1,0 +1,73 @@
+.holder{
+    padding: 3%;
+    background-color: white;
+    height: 30%;
+    width: 70%;
+    margin-top: 4%;
+    margin-left: 5%;
+    }
+    .nav{
+        color: #38a0a7;
+    }
+    .signin{
+        color: #38a0a7;   
+    }
+    .list-itms{
+        display: flex;
+    }
+    .create{
+        margin-left: 74%;
+        margin-top: -4.5%;
+        padding-bottom: 2%;
+    }
+    .wish{
+        color: #8b8b8b;
+    }
+    .input-header{
+        color: #828282;
+    }
+    .input{
+        width: 45%;
+        padding: 1%;
+       
+    }
+    .alternative{
+        color: #828282;
+    }
+    .registered{
+        margin-top: -2%;
+        margin-left: 3%;
+    }
+    .checkbox{
+        margin-top: 2%;
+    }
+    .getpassword{
+        margin-left: 15.5%;
+    }
+    .submitbutton{
+        color: white;
+        background-color: #38a0a7;
+        padding: 1.5%;
+        border: none;
+        border-radius: 3px;
+        width: 48%;
+    }
+    .container{
+        margin-left: 45%;
+        margin-top: -46%;
+    }
+    .google{
+        margin-left: 3%;
+        
+    }
+    .Instagram{
+        margin-left: 3%;
+       
+
+    }
+    .socialicons{
+        display: flex;
+    }
+    .facebook{
+        margin-left: 8%;
+    }
