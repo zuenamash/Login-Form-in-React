@@ -16,9 +16,13 @@
         display: flex;
     }
     .create{
-        margin-left: 74%;
+        /* margin-left: 80%; */
         margin-top: -4.5%;
-        padding-bottom: 2%;
+        padding-bottom: 0%;
+    }
+    .item{
+        margin-left: 50%;
+        margin-top: 6%;
     }
     .wish{
         color: #8b8b8b;

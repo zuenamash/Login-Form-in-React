@@ -1,8 +1,10 @@
 import React, {useEffect, useState} from "react";
-
 import './Form.css';
+import Add from "./Add";
 import image from "./edishop.png";
 import {FaFacebook,FaGoogle,FaInstagram} from "react-icons/fa";
+import AnotherComponent from "./AnotherComponent";
+import User from './User';
 // import { useState } from "react";
 
 const Form=() => {
@@ -12,7 +14,6 @@ const Form=() => {
     
 // const [error, setError] = useState("");
 //     const [loading, setLoading] = useState(true);
-
   const handleSubmit = ()=>{
     const data= {
       email:email,
@@ -26,13 +27,11 @@ const Form=() => {
 <div>
 <div className="holder">
 
-  <nav>
+
     <div className="list-itms">
-     
- <p className="items"><h1 className="nav">Eddie Shop</h1></p>
- <p className="items"> <p className="create">Dont have an account? <span className="signin"> Sign up</span></p> </p>
+     <p className="items"><h1 className="nav">Eddie Shop</h1></p>
+     <p className="item"> <p id="left" className="create">Dont have an account? <span className="signin"> Sign up</span></p> </p>
     </div>
-  </nav>
 
 <h2 className="wish">Welcome Back</h2>
    <form className="form" onSubmit={handleSubmit}>
@@ -65,8 +64,15 @@ const Form=() => {
   <img src={image} alt="imgage"/>
 </div>
 </div>
+{/* <Add email={email ? email :"loading"}/> */}
+<AnotherComponent email={email ? email : "undefined"}/>
+
+
 </div>
 
     );
 }
-export default Form;
+// export default Form;
+export default AnotherComponent;
+
+
