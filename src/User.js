@@ -26,6 +26,15 @@ const User=()=>{
        {user.map(item=>(
         <div>
             <img src={item.image}/>
+            <p>{item.firstName} {item.lastName} {item.middleName}</p>
+            <h4>Details:</h4>
+            <p>Email: {item.email}</p>
+            <p>UserName: {item.userName}</p>
+            <p>Age: {item.age}</p>
+            <p>Gender: {item.gender}</p>
+            <p>Address: {item.address}</p>
+        
+
         </div>
        ))
 }
